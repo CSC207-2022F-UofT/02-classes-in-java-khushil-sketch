@@ -78,8 +78,14 @@ public class Silly implements Comparable<Silly>{
      *       Afterwards, set this.name to the concatenation of both
      *       strings (e.g. this.name = [first string] + [second string]).
      *       Make sure you document this method!
+     *
+     * Creates a new silly object. The constructor takes in 2 strings as arguments.
+     * @param string_1 a string for this Silly instance's name.
+     * @param string_2 a string for this Silly instance's name.
      */
-
+    public Silly(String string_1, String string_2) {
+        this.name = string_1 + string_2;
+    }
 
 
 
